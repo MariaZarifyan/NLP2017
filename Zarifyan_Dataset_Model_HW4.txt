@@ -1,0 +1,177 @@
+﻿=== Run information ===
+
+Scheme:       weka.classifiers.rules.OneR -B 6
+Relation:     Zarifyan_Dataset_HW4-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    200
+Attributes:   5
+              prevword
+              nextword
+              prevtag
+              nexttag
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+prevword:
+	aanu	-> 1
+	ea?oioaeuiue	-> 1
+	ianyiue	-> 1
+	ia	-> 2
+	auou	-> 1
+	naioya?uneee	-> 1
+	-	-> 1
+	ii	-> 1
+	ea?a	-> 2
+	ai?ioiaue	-> 1
+	???iue	-> 5
+	a	-> 11
+	eiiiooaoeiiiue	-> 5
+	yoio	-> 4
+	aieuoie	-> 1
+	?oiau	-> 6
+	ieiiue	-> 2
+	oooaieuiue	-> 2
+	iina?aaeia 	-> 1
+	?o?ie	-> 2
+	ia?iiiue	-> 2
+	?onneee	-> 1
+	iaaieoiue	-> 3
+	ieoya?uneee	-> 1
+	cania?aiiue	-> 2
+	e	-> 1
+	ii	-> 2
+	naiaioe?aneee	-> 4
+	aini?eieiaaiue 	-> 4
+	?aoeaeneaiue	-> 4
+	iaaieoiue 	-> 3
+	iaeo?iiiue 	-> 3
+	ecieeiey	-> 1
+	aicao?aaiea 	-> 3
+	ianoaoeiia?iue	-> 3
+	oai?ey 	-> 3
+	yeaeo?e?aneee	-> 3
+	ineaaeaiea	-> 3
+	naie 	-> 2
+	a 	-> 3
+	yeaeo?iiaaieoiue	-> 3
+	ea??iaue	-> 1
+	ean	-> 1
+	aieiu	-> 3
+	oece?aneee	-> 3
+	iaiaaie?eaa?ueeny 	-> 3
+	iaei?aiea	-> 3
+	iai?y??iiue	-> 3
+	iaacuyia	-> 11
+	a?aaeoaoeiiiue	-> 3
+	i?ioaiea	-> 1
+	iiiyoea	-> 4
+	eaaaeuiue	-> 4
+	iauiinou	-> 2
+	aia	-> 11
+	cae?iue	-> 2
+	ioaee?iue	-> 4
+	yiioeiiaeuii-naiaioe?aneee	-> 4
+	ea?aue	-> 4
+	neeiaie	-> 4
+	ia 	-> 1
+	Eo?eiai	-> 2
+	e?oiue	-> 2
+	eeoiaa	-> 1
+	iaioaeuiue	-> 4
+	n 	-> 2
+	iieiaeia	-> 2
+	aieeeaoaneee	-> 4
+	ec	-> 11
+	?aaeiiaeuiue	-> 4
+	eiiniiieuneee	-> 4
+	noceou	-> 4
+	eioi?iaoeiiiue	-> 4
+	oaio?	-> 2
+	oicyei 	-> 2
+	aeaaou	-> 2
+	Aeenaeneee	-> 2
+	i?aaiaie	-> 4
+	Aieioia	-> 1
+	ii 	-> 2
+	inoaaeyou	-> 10
+	ai	-> 1
+	auai?iue	-> 4
+	?acai? 	-> 4
+	ai?aeeaue	-> 1
+	?enoue	-> 1
+	eiinoeoooeiiiue	-> 4
+	iaeiaiaue	-> 4
+	iaoe?iue	-> 4
+	caeiiiaaoaeuiue	-> 4
+	?a	-> 2
+	ionoie	-> 1
+	nia?iue	-> 2
+	oa?eoa 	-> 1
+	e?ae	-> 1
+	ieii	-> 1
+	nouioou	-> 1
+	au	-> 1
+	?oi	-> 7
+	o?aayienoue	-> 1
+	iao	-> 11
+	Aunieee	-> 1
+	oio	-> 1
+	canaaaouny	-> 1
+	noaiu	-> 1
+	aaneiia?iue	-> 1
+	n	-> 10
+	ia	-> 1
+	ooi?aiiue	-> 10
+	e	-> 1
+	?aneeioouny	-> 1
+	oaeie	-> 1
+	aae?eee	-> 1
+	caacaa	-> 1
+	e?ano	-> 1
+	e?iiea	-> 1
+	iaei	-> 1
+	i?aanoaaeyou	-> 4
+(170/200 instances correct)
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          96               48      %
+Incorrectly Classified Instances       104               52      %
+Kappa statistic                          0.3023
+Mean absolute error                      0.1156
+Root mean squared error                  0.3399
+Relative absolute error                 65.0947 %
+Root relative squared error            114.3766 %
+Total Number of Instances              200     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,738    0,511    0,388      0,738    0,508      0,212    0,613     0,366     1
+                 0,533    0,116    0,571      0,533    0,552      0,428    0,709     0,410     2
+                 0,576    0,018    0,864      0,576    0,691      0,662    0,779     0,567     3
+                 0,200    0,030    0,583      0,200    0,298      0,272    0,585     0,257     4
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,500     0,015     5
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,500     0,025     6
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,500     0,005     7
+                 0,000    0,005    0,000      0,000    0,000      -0,014   0,497     0,035     10
+                 0,100    0,032    0,143      0,100    0,118      0,081    0,534     0,059     11
+Weighted Avg.    0,480    0,192    0,499      0,480    0,451      0,321    0,644     0,347     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i   <-- classified as
+ 45  8  0  3  0  0  0  1  4 |  a = 1
+ 20 24  0  1  0  0  0  0  0 |  b = 2
+ 12  0 19  1  0  0  0  0  1 |  c = 3
+ 24  3  1  7  0  0  0  0  0 |  d = 4
+  2  0  0  0  0  0  0  0  1 |  e = 5
+  1  4  0  0  0  0  0  0  0 |  f = 6
+  1  0  0  0  0  0  0  0  0 |  g = 7
+  4  3  0  0  0  0  0  0  0 |  h = 10
+  7  0  2  0  0  0  0  0  1 |  i = 11
