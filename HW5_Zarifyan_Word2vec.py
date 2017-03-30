@@ -75,7 +75,7 @@ w = codecs.open('big_output.txt', 'w', 'utf-8')
 w.write(all_data)
 
 all_data = gensim.models.doc2vec.TaggedLineDocument('big_output.txt')
-model = gensim.models.doc2vec.Doc2Vec(all_data, size=200, min_count=2, iter=55)
+model = gensim.models.doc2vec.Doc2Vec(all_data, size=300, min_count=10, iter=50)
 model.save('mymodel')
 model = gensim.models.Doc2Vec.load('mymodel')
 
